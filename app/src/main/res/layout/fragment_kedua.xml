@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_car_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Mobil"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/img_display"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tv_car_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merk: Lamborghini Veneno\nHarga: Rp 30.000.000.000\nMesin: 6.5L V12\nDeskripsi Singkat:\nLamborghini Veneno adalah supercar eksklusif yang dirancang untuk memberikan performa luar biasa dan pengalaman berkendara yang tak terlupakan. Dikenal dengan desain aerodinamisnya yang futuristik, Veneno mampu berakselerasi dari 0 hingga 100 km/h dalam waktu hanya 2,8 detik. Hanya ada 9 unit yang diproduksi, menjadikannya salah satu mobil paling langka dan diinginkan di dunia."
+            android:textSize="16sp"
+            android:textColor="#555555" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali ke Home" />
+
+
+    </LinearLayout>
+</ScrollView>
